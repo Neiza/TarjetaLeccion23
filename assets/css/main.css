@@ -4,6 +4,7 @@
   padding: 0;
 }
 
+
 .container{
   box-sizing: border-box;
   position: absolute;
@@ -12,6 +13,9 @@
   padding: 0.5%;
   width: 50%;
   height: 60%;
+  background: linear-gradient( 120deg, rgba(255,255,255,0) 50%, #3c3c3b 50%);
+  background-repeat: no-repeat;
+
 }
 
 .text-container{
@@ -21,11 +25,15 @@
   color: white;
   width: 60%;
   height: 96%;
-  }
+  background: linear-gradient(45deg);
+  background-image: url("../img/laboratoria.jpg");
+}
 
 img{
   position: absolute;
-  width: 60%;
-  height: 96%;
+  top: 20%;
+  left: 25%;
+  width: 40%;
+  height: 60%;
 
 }
