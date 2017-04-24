@@ -10,22 +10,22 @@
   top: 20%;
   left: 25%;
   padding: 0.5%;
-  border: 2px solid green;
-  width: 25%;
-  height: 30%;
+  width: 50%;
+  height: 60%;
 }
 
 .text-container{
+  position: absolute;
+  right: 1%;
   background-color: #3c3c3b;
   color: white;
-  width: 45%;
-  height: 94%;
+  width: 60%;
+  height: 96%;
   }
 
 img{
   position: absolute;
-  right:3;
-  width: 50%;
-  height: 94%;
+  width: 60%;
+  height: 96%;
 
 }
