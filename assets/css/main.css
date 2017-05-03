@@ -1,13 +1,9 @@
 *{
-  font-family: helvetica;
+  font-family: 'Oxygen', sans-serif;
   margin: 0;
   padding: 0;
 }
 
-@@font-face {
-  font-family: Relaway;
-  src: local(Relaway);
-}
 .container{
   box-sizing: border-box;
   position: absolute;
@@ -16,9 +12,10 @@
   padding: 0.5%;
   width: 50%;
   height: 60%;
-  background: linear-gradient( 115deg, rgba(255,255,255,0) 50%, #3c3c3b 50%);
+  background: linear-gradient( 125deg, rgba(255,255,255,0) 50%, #3c3c3b 50%);
   background-repeat: no-repeat;
-
+  letter-spacing: 4px;
+  font-weight: lighter;
 }
 
 h1{
@@ -26,7 +23,7 @@ h1{
   top: 25%;
   right: 10%;
   color: white;
-
+  font-size: 2em;
 }
 
 #fd{
@@ -40,15 +37,22 @@ h4{
   color: white;
   position: absolute;
   bottom: 20%;
-  right: 10%;
-
+  right: 5%;
 }
 
-img{
+.foto-lab{
   position: absolute;
   top: 20%;
   left: 25%;
   width: 40%;
   height: 60%;
+}
+
+.logo{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 75px;
+  height: 75px;
 
 }
